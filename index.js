@@ -1,6 +1,6 @@
 import Router from './lib/router';
-import Index from './lambdas/index';
-import Bar from './lambdas/bar';
+import Index from './workers/index';
+import Bar from './workers/bar';
 
 async function handleRequest(request) {
   const r = new Router();
